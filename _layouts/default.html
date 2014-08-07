@@ -13,6 +13,9 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="/css/style.css">
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
@@ -46,29 +49,57 @@
                 <li><a href="/#contacts">Контакты</a></li>
                 <li><a href="/meetups.html">Архив встреч</a></li>
             </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
 </nav>
 
 <div class="container">
 
     <h1>{{ page.title }}</h1>
     {{ content }}
-</div><!-- /.container -->
+</div>
+<!-- /.container -->
 
-<footer>
-    <p>&copy; 2014 {{ site.title }}</p>
-    <p>
-        <a href="http://www.oreilly.com/ug/"><img src="http://cdn.oreillystatic.com/community/promote/ug_ad_250_viguy.gif"/></a>
-        <a href="http://www.jetbrains.com/"><img src="http://www.jetbrains.com/company/docs/logo_jetbrains.png"/></a>
-    </p>
-</footer>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <footer>
+            <h4 class="text-center">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</h4>
+
+            <p class="text-center">User Group supported by:</p>
+
+            <p class="text-center">
+                <a href="http://www.oreilly.com/ug/" title="O’Reilly Media, Inc.">
+                    <img
+                            src="http://cdn.oreillystatic.com/community/promote/ug_ad_250_viguy.gif"
+                            alt="O’Reilly Media, Inc."/>
+                </a>
+                <a href="http://www.jetbrains.com/" title="JetBrains s.r.o.">
+                    <img
+                        src="http://www.jetbrains.com/company/docs/logo_jetbrains.png" alt="JetBrains s.r.o."/>
+                </a>
+                <a href="http://www.epam.com/" title="EPAM Systems">
+                    <img
+                        src="/img/epam-corporate-logo.gif" alt="EPAM Systems"/>
+                </a>
+            </p>
+        </footer>
+    </div>
+</nav>
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', '{{ site.google_analytics_tracking_id }}', 'auto');
     ga('send', 'pageview');
