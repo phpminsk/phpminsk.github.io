@@ -23,6 +23,18 @@ title: Архив встреч
                 {% comment %} Single line above is an emulation of spaceless tag{% endcomment %}
                 {% for speaker in talk_speakers %}{% if speaker.facebook %}<a href="https://www.facebook.com/{{ speaker.facebook }}">{% endif %}{{ speaker.name }}{% if speaker.facebook %}</a>{% endif %}{% endfor %}{% if forloop.last == false %}, {% endif %}
             {% endfor %}
+
+            {% if talk.slides.size > 0 %}
+                {% for slides in talk.slides %}
+                    <a href="{{ slides }}" class="btn btn-default btn-xs">Slides{% if talk.slides.size > 1 %} {{ forloop.index }}{% endif %}</a>
+                {% endfor %}
+            {% endif %}
+
+            {% if talk.video.size > 0 %}
+                {% for video in talk.video %}
+                    <a href="{{ video }}" class="btn btn-default btn-xs">Video{% if talk.video.size > 1 %} {{ forloop.index }}{% endif %}</a>
+                {% endfor %}
+            {% endif %}
         </li>
     {% endfor %}
 </ol>

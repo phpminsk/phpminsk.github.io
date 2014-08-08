@@ -45,12 +45,12 @@ title:
 <h1 id="contacts">Контакты</h1>
 {% for contact in site.data.contacts %}
 <address>
-    <p><strong>{{ contact.name }}</strong></p>
-    <ul class="list-inline">
-        {% if contact.email %} <li><a href="mailto:{{ contact.email }}">E-mail</a></li> {% endif %}
-        {% if contact.skype %} <li><a href="skype:{{ contact.skype }}?call">Skype</a></li> {% endif %}
-        {% if contact.facebook %} <li><a href="https://www.facebook.com/{{ contact.facebook }}">Facebook</a></li> {% endif %}
-        {% if contact.homepage %} <li><a href="{{ contact.homepage }}">Homepage</a></li> {% endif %}
-    </ul>
+    <p>
+        <strong>{{ contact.name }}</strong>:
+        {% if contact.email %} <a href="mailto:{{ contact.email }}" class="btn btn-default btn-xs">E-mail</a> {% endif %}
+        {% if contact.skype %} <a href="skype:{{ contact.skype }}?call" class="btn btn-default btn-xs">Skype</a> {% endif %}
+        {% if contact.facebook %} <a href="https://www.facebook.com/{{ contact.facebook }}" class="btn btn-default btn-xs">Facebook</a> {% endif %}
+        {% if contact.homepage %} <a href="{{ contact.homepage }}" class="btn btn-default btn-xs">Homepage</a> {% endif %}
+    </p>
 </address>
 {% endfor %}
