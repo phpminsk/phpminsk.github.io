@@ -21,12 +21,12 @@ title:
     </ul>
 
     <p>
-        Следующий <a href="https://www.facebook.com/events/600891746698048/">митап #9</a> пройдет 28 августа (четверг) в
+        Следующий <a href="https://www.facebook.com/events/600891746698048/" target="_blank">митап #9</a> пройдет 28 августа (четверг) в
         19:00 в бизнес-клубе Imaguru (ул. Фабрициуса, 4)
     </p>
 
     <p>
-        <a class="btn btn-primary btn-lg" role="button" href="https://www.facebook.com/groups/minsk.user.group/">Вступить</a>
+        <a class="btn btn-primary btn-lg" role="button" href="https://www.facebook.com/groups/minsk.user.group/" target="_blank">Вступить</a>
         <a class="btn info btn-lg" role="button"
            href="https://www.google.com/calendar/ical/phpminsk%40gmail.com/public/basic.ics">Календарь митапов</a>
     </p>
@@ -34,12 +34,12 @@ title:
 
 <h1 id="social">Мы в соцсетях</h1>
 <ul>
-    <li><a href="https://www.facebook.com/groups/minsk.user.group/">Группа в Facebook</a></li>
-    <li><a href="https://www.youtube.com/user/PHPUserGroupMinsk/">Канал на YouTube</a></li>
-    <li><a href="https://twitter.com/phpminsk">Аккаунт в Twitter</a></li>
-    <li><a href="http://www.slideshare.net/MinskPHPUserGroup/">Аккаунт на SlideShare</a></li>
-    <li><a href="https://connect.sensiolabs.com/club/php-user-group-minsk">Клуб на SensioLabs Connect</a></li>
-    <li><a href="https://github.com/phpminsk/">Организация на GitHub</a></li>
+    <li><a href="https://www.facebook.com/groups/minsk.user.group/" target="_blank">Группа в Facebook</a></li>
+    <li><a href="https://www.youtube.com/user/PHPUserGroupMinsk/" target="_blank">Канал на YouTube</a></li>
+    <li><a href="https://twitter.com/phpminsk" target="_blank">Аккаунт в Twitter</a></li>
+    <li><a href="http://www.slideshare.net/MinskPHPUserGroup/" target="_blank">Аккаунт на SlideShare</a></li>
+    <li><a href="https://connect.sensiolabs.com/club/php-user-group-minsk" target="_blank">Клуб на SensioLabs Connect</a></li>
+    <li><a href="https://github.com/phpminsk/" target="_blank">Организация на GitHub</a></li>
 </ul>
 
 <h1 id="contacts">Контакты</h1>
@@ -49,8 +49,8 @@ title:
         <strong>{{ contact.name }}</strong>:
         {% if contact.email %} <a href="mailto:{{ contact.email }}" class="btn btn-default btn-xs">E-mail</a> {% endif %}
         {% if contact.skype %} <a href="skype:{{ contact.skype }}?call" class="btn btn-default btn-xs">Skype</a> {% endif %}
-        {% if contact.facebook %} <a href="https://www.facebook.com/{{ contact.facebook }}" class="btn btn-default btn-xs">Facebook</a> {% endif %}
-        {% if contact.homepage %} <a href="{{ contact.homepage }}" class="btn btn-default btn-xs">Homepage</a> {% endif %}
+        {% if contact.facebook %} <a href="https://www.facebook.com/{{ contact.facebook }}" target="_blank" class="btn btn-default btn-xs">Facebook</a> {% endif %}
+        {% if contact.homepage %} <a href="{{ contact.homepage }}" target="_blank" class="btn btn-default btn-xs">Homepage</a> {% endif %}
     </p>
 </address>
 {% endfor %}
