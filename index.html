@@ -43,10 +43,14 @@ title:
 </ul>
 
 <h1 id="contacts">Контакты</h1>
-<p>
-    Max Romanovsky:
-    <a href="mailto:max.romanovsky@gmail.com">E-mail</a> |
-    <a href="skype:max.romanovsky?call">Skype</a> |
-    <a href="https://www.facebook.com/max.romanovsky">Facebook</a> |
-    <a href="http://maxromanovsky.com/">Homepage</a>
-</p>
+{% for contact in site.data.contacts %}
+<address>
+    <p><strong>{{ contact.name }}</strong></p>
+    <ul class="list-inline">
+        {% if contact.email %} <li><a href="mailto:{{ contact.email }}">E-mail</a></li> {% endif %}
+        {% if contact.skype %} <li><a href="skype:{{ contact.skype }}?call">Skype</a></li> {% endif %}
+        {% if contact.facebook %} <li><a href="https://www.facebook.com/{{ contact.facebook }}">Facebook</a></li> {% endif %}
+        {% if contact.homepage %} <li><a href="{{ contact.homepage }}">Homepage</a></li> {% endif %}
+    </ul>
+</address>
+{% endfor %}

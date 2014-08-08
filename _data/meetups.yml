@@ -1,0 +1,249 @@
+- date: 24.07.2014
+  title: "PHP User Group Meetup #8"
+  facebook_event_id: 810171045689601
+  talks:
+    - title: Вступление "Minsk PHP User Group. Настоящее и будущее"
+      speakers:
+        - Max Romanovsky
+
+    - title: CRC-карты, используем в своей работе
+      speakers:
+        - Alexander Nemanov
+      slides:
+        - http://www.slideshare.net/alexandernemanov/008-crc-cards
+      video:
+        - https://www.youtube.com/watch?v=zE4RhX8Vmp8
+
+    - title: Real-time мониторинг событий
+      speakers:
+        - Евгений Пальчевский:
+      slides:
+        - http://www.slideshare.net/EvgenyPalchevsky/real-time-monitoring-web-applications
+      video:
+        - https://www.youtube.com/watch?v=aux44wo8pGc
+
+    - title: Full-stack JS за час
+      speakers:
+        - Olegg Voskovich
+      slides:
+        - http://www.slideshare.net/volegg/fullstack-js-v2
+      video:
+        - https://www.youtube.com/watch?v=hUFKZN8Fz_s">Video</a>
+
+- date: 19.06.2014
+  title: "PHP User Group Meetup #7"
+  facebook_event_id: 1441057209481565
+  talks:
+    - title: Как приручить проектное окружение
+      speakers:
+        - Alexander Kurilo
+      slides:
+        - http://www.slideshare.net/kamazee/ss-36369084
+      video:
+        - https://www.youtube.com/watch?v=58R4KQxTMgc
+
+    - title: Держим руку на пульсе проекта. Мониторинг PHP-приложений.
+      speakers:
+        - Max Romanovsky
+      slides:
+        - http://www.slideshare.net/maxromanovsky/php-36367188
+      video:
+        - https://www.youtube.com/watch?v=mQmK4tWXIoA
+
+    - title: С чем едят js дебаггер?!
+      speakers:
+        - Olegg Voskovich
+      slides:
+        - http://www.slideshare.net/volegg/basic-debugging-v3-1
+      video:
+        - https://www.youtube.com/watch?v=8eIKtIypLJc
+
+- date: 09.04.2014
+  facebook_event_id: 1422669311319858
+  title: "PHP Symfony Meet-up #4"
+  talks:
+    - title: Контрактное программирование в PHP
+      speakers:
+        - Sergei Khaletskiy
+      slides:
+        - http://www.slideshare.net/khaletskiy/presentation-33355239
+
+    - title: TDD With PHPSpec2
+      speakers:
+        - Anton Serdyuk
+      slides:
+        - http://www.slideshare.net/antonserdyuk/tdd-with-phpspec2
+
+    - title: GRASP – паттерны Объектно-Ориентированного Проектирования
+      speakers:
+        - Alexander  Nemanov
+      slides:
+        - http://www.slideshare.net/alexandernemanov/grasp-33677750
+
+- date: 12.03.2014
+  facebook_event_id: 564381150335522
+  title: "Symfony: встреча в Марте"
+  talks:
+    - title: S.O.L.I.D. - Принципы объектного проектирования классов
+      speakers:
+        - Alexander Nemanov
+      slides:
+        - http://www.slideshare.net/alexandernemanov/solid-32260559
+
+    - title: Symfony2. Unit testing
+      speakers:
+        - Vadim Kharitonov
+      slides:
+        - http://www.slideshare.net/MinskPHPUserGroup/symfony2-36450067
+        - http://vadim2404.github.io/#/
+
+    - title: Используем WebSockets c Symfony2
+      speakers:
+        - Dmitry Pliusnin
+      slides:
+        - http://www.slideshare.net/plusnin/websockets-32263784
+
+- date: 20.02.2014
+  facebook_event_id: 514011982045411
+  title: "Drupal Meetup #1"
+  talks:
+    - title: Большие корпоративные проекты на Drupal
+      speakers:
+        - Denis Shishkov
+        - Dmitry Morozov
+
+    - title: Drupal 7 Forms API reference – неочевидные моменты
+      speakers:
+        - Денис Рудой
+      video:
+        - https://www.youtube.com/watch?v=fUUvEfmSC-g
+
+    - title: Обзор Drupal 8
+      speakers:
+        - Andrei Khalipau
+        - Kostya Halipov
+        - Егор Богатырёв
+      slides:
+        - http://www.slideshare.net/MinskPHPUserGroup/drupal-8-36385086
+      video:
+        - https://www.youtube.com/watch?v=Rmv44QK10g4
+
+- date: 31.01.2014
+  facebook_event_id: 1438739603010297
+  title: PHP & Symfony встречаемся в Январе
+  talks:
+    - title: Sylius (ecommerce for Symfony2) - Возможности и обзор
+      speakers:
+        - Yury Pliashkou
+
+    - title: TDD - увеличивая экономим
+      speakers:
+        - Andrei Khalipau
+
+    - title: DDD - Основы доменной модели
+      speakers:
+        - Антон Шабовта
+      slides:
+        - http://www.slideshare.net/zloyusr/ss-30836581/
+
+- date: 24.12.2013
+  facebook_event_id: 1444011829159925
+  title: "PHP User Group Meetup #5"
+  talks:
+    - title: HTTP Middlewares in PHP
+      speakers:
+        - Eugene Dounar
+      slides:
+        - http://www.slideshare.net/MinskPHPUserGroup/http-middlewares-in-php-36545934
+      video:
+        - https://www.youtube.com/watch?v=-4SngHIJfjc
+
+    - title: "PSR: Standards in PHP"
+      speakers:
+        - Alex Simanovich
+      slides:
+        - http://www.slideshare.net/MinskPHPUserGroup/psr-36450518
+      video:
+        - https://www.youtube.com/watch?v=KU3vgvHguE0
+
+- date: 31.10.2013
+  facebook_event_id: 214166298764760
+  title: "PHP User Group Meetup #4"
+  talks:
+    - title: Yet Another Continuous Integration Story
+      speakers:
+        - Anton Serdyuk
+      slides:
+        - http://www.slideshare.net/antonserdyuk/continuous-integration-27790141
+      video:
+        - https://www.youtube.com/watch?v=VYeb2YW4s9E
+
+    - title: Применение DDD подхода в Symfony 2 приложении
+      speakers:
+        - Антон Шабовта
+      slides:
+        - http://www.slideshare.net/zloyusr/untitled-1-27801106
+      video:
+        - https://www.youtube.com/watch?v=M-ucuo5y5TI
+
+    - title: NodeJS Live Coding session
+      speakers:
+        - Andrei Bas
+      video:
+        - https://www.youtube.com/watch?v=lMUAcP7cvW0
+
+- date: 12.09.2013
+  facebook_event_id: 166659653523480
+  title: "PHP User Group Meetup #3"
+  talks:
+    - title: MongoDB & PHP
+      speakers:
+        - Alex Litvinok
+      slides:
+        - http://www.slideshare.net/litvinok/mongodb-php-26158488
+      video:
+        - https://www.youtube.com/watch?v=FSITw7IJi_Q
+
+    - title: Используем Dependency Injection и Container
+      speakers:
+        - Alexander Nemanov
+      slides:
+        - http://www.slideshare.net/alexandernemanov/dicontainer
+      video:
+        - https://www.youtube.com/watch?v=B_Xoo8-7LI4
+
+    - title: Symfony under control. Continuous Integration and Automated Deployments in Symfony-based projects
+      speakers:
+        - Max Romanovsky
+      slides:
+        - http://www.slideshare.net/maxromanovsky/symfony-under-control-continuous-integration-and-automated-deployments-in-symfonybased-projects
+      video:
+        - https://www.youtube.com/watch?v=vMTF4dVvuRU
+
+- date: 25.07.2013
+  facebook_event_id: 402822879828372
+  title: "PHP User Group Meetup #2"
+  talks:
+    - title: Разработка на коленке. История оптимизации двух маленьких проектов
+      speakers:
+        - Владимир Храмцов
+      slides:
+        - http://www.slideshare.net/php-user-group-minsk/development-on-the-knee-by-vladimir-khramtsov
+
+    - title: NodeJS Live Coding session
+      speakers:
+        - Andrei Bas
+
+    - title: Continuous Integration в PHP
+      speakers:
+        - Andrew Stephanoff
+        - Alex Simanovich
+        - Max Romanovsky
+      slides:
+        - http://www.slideshare.net/php-user-group-minsk/continuous-integration-for-php-projects-theory-by-alex-simanovich
+        - http://www.slideshare.net/php-user-group-minsk/continuous-integration-intro-by-maxim-romanovsky
+
+- date: 27.06.2013
+  facebook_event_id: 555173207858185
+  title: "PHP User Group Meetup #1"
+  description: Весь контент был пересказом докладов с РИТ++ 2013 и Symfony Camp UA 2012

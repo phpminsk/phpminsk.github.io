@@ -1,0 +1,29 @@
+---
+layout: default
+title: Архив встреч
+---
+<ul>
+    {% for meetup in site.data.meetups %}
+    <li>{{ meetup.date }} <a href="#{{ meetup.facebook_event_id }}">{{ meetup.title }}</a></li>
+    {% endfor %}
+</ul>
+
+{% for meetup in site.data.meetups %}
+<h3 id="{{ meetup.facebook_event_id }}">{{ meetup.date }} <a
+        href="https://www.facebook.com/events/{{ meetup.facebook_event_id }}/">{{ meetup.title }}</a></h3>
+{% if meetup.description %}
+    <p>{{ meetup.description }}</p>
+{% endif %}
+<ol>
+    {% for talk in meetup.talks %}
+        <li>
+            {{ talk.title }} by
+            {% for speaker_name in talk.speakers %}
+                {% assign talk_speakers = site.data.speakers | where: "name", speaker_name %}
+                {% comment %} Single line above is an emulation of spaceless tag{% endcomment %}
+                {% for speaker in talk_speakers %}{% if speaker.facebook %}<a href="https://www.facebook.com/{{ speaker.facebook }}">{% endif %}{{ speaker.name }}{% if speaker.facebook %}</a>{% endif %}{% endfor %}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+        </li>
+    {% endfor %}
+</ol>
+{% endfor %}
