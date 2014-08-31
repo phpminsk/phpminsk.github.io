@@ -1,3 +1,25 @@
+- date: 28.08.2014
+  title: "PHP User Group Meetup #9"
+  facebook_event_id: 600891746698048
+  talks:
+    - title: Реал-тайм в вебе - есть ли жизнь у чата без socket.io и node.js
+      speakers:
+        - Eduard Trayan
+      slides:
+        - http://www.slideshare.net/EduardTrayan/real-time-web-38478161
+
+    - title: Druphpet. Создание узкозаточенной виртуальной машины под ваш любимый фреймворк
+      speakers:
+        - Aleh Kot
+      slides:
+        - http://htmlpreview.github.io/?https://github.com/alehkot/impress.js/blob/druphpet-aug-2014/index.html#/start
+
+    - title: DDD with Behat
+      speakers:
+        - Anton Serdyuk
+      slides:
+        - http://www.slideshare.net/antonserdyuk/ddd-with-behat
+
 - date: 24.07.2014
   title: "PHP User Group Meetup #8"
   facebook_event_id: 810171045689601
