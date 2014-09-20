@@ -7,18 +7,24 @@
         - Eduard Trayan
       slides:
         - http://www.slideshare.net/EduardTrayan/real-time-web-38478161
+      video:
+        - https://www.youtube.com/watch?v=cH0neWkHLZ4
 
     - title: Druphpet. Создание узкозаточенной виртуальной машины под ваш любимый фреймворк
       speakers:
         - Aleh Kot
       slides:
         - http://htmlpreview.github.io/?https://github.com/alehkot/impress.js/blob/druphpet-aug-2014/index.html#/start
+      video:
+        - https://www.youtube.com/watch?v=DO8QwhlYtbs
 
     - title: DDD with Behat
       speakers:
         - Anton Serdyuk
       slides:
         - http://www.slideshare.net/antonserdyuk/ddd-with-behat
+      video:
+        - https://www.youtube.com/watch?v=KO-spDn8cgg
 
 - date: 24.07.2014
   title: "PHP User Group Meetup #8"
